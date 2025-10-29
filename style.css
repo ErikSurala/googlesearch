@@ -1,0 +1,70 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-align: center;
+  background-color: #fff;
+  color: #202124;
+}
+
+header, .logo {
+  font-size: 4rem;
+  font-weight: bold;
+  padding-top: 12vh;
+}
+
+.logo span:nth-child(1) { color: #4285F4; }
+.logo span:nth-child(2) { color: #EA4335; }
+.logo span:nth-child(3) { color: #FBBC05; }
+.logo span:nth-child(4) { color: #4285F4; }
+.logo span:nth-child(5) { color: #34A853; }
+.logo span:nth-child(6) { color: #EA4335; }
+
+input[type=text], input[type=search] {
+  width: 40%;
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+input[type=text]:focus, input[type=search]:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 3px #1a73e8;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #e8eaed;
+}
+
+button.primary {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.links, a {
+  margin-top: 20px;
+  display: inline-block;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
